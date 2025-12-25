@@ -1,6 +1,28 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# WhatsApp-like Chat Application
 
-# Getting Started
+A fully-featured WhatsApp-like chat application built with React Native CLI. This app supports text messaging, media uploads (images, videos, audio, files), local media storage, and offline-first functionality using SQLite.
+
+## Features
+
+- ✅ **Text Chat** - Send and receive text messages with WhatsApp-like UI
+- ✅ **Media Upload** - Upload images, videos, audio files, and documents
+- ✅ **Media Storage** - All media files are stored locally on the device
+- ✅ **Offline-First** - SQLite database for persistent message storage
+- ✅ **Chat UI** - Beautiful message bubbles with sent/received styling
+- ✅ **Media Preview** - Full-screen preview for images and videos
+- ✅ **No Backend Required** - Everything works offline using local storage
+
+## Tech Stack
+
+- **React Native CLI** (0.73.6)
+- **TypeScript**
+- **SQLite** (react-native-sqlite-storage) - For offline message storage
+- **React Native FS** - For file system operations
+- **React Native Image Picker** - For image/video selection
+- **React Native Document Picker** - For file selection
+- **React Native Video** - For video playback
+
+## Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 

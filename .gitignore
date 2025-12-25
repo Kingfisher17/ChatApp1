@@ -1,6 +1,22 @@
 # OSX
 #
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
 # Xcode
 #
@@ -20,7 +36,14 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+*.xcworkspace
+!default.xcworkspace
 ios/.xcode.env.local
+ios/Pods/
+ios/build/
+*.xcscmblueprint
+*.xccheckout
+project.xcworkspace
 
 # Android/IntelliJ
 #
@@ -33,12 +56,74 @@ local.properties
 .cxx/
 *.keystore
 !debug.keystore
+*.apk
+*.ap_
+*.aab
+android/app/build/
+android/build/
+android/.gradle/
+android/app/release/
+android/app/debug/
+android/.cxx/
+android/local.properties
+android/app/local.properties
+*.dex
+*.class
+bin/
+gen/
+out/
+.gradle/
+proguard/
 
 # node.js
 #
 node_modules/
 npm-debug.log
 yarn-error.log
+# Note: package-lock.json and yarn.lock should be tracked for consistency
+# Uncomment the line below if you don't want to track lock files
+# package-lock.json
+# yarn.lock
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# React Native
+#
+.expo/
+.expo-shared/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+*.log
+
+# Metro
+#
+.metro-health-check*
+.metro/
+
+# Bundle artifact
+#
+*.jsbundle
+
+# TypeScript
+#
+*.tsbuildinfo
+
+# Testing
+#
+/coverage
+.nyc_output
+*.lcov
+.jest/
 
 # fastlane
 #
@@ -52,15 +137,81 @@ yarn-error.log
 **/fastlane/screenshots
 **/fastlane/test_output
 
-# Bundle artifact
-*.jsbundle
-
 # Ruby / CocoaPods
-/ios/Pods/
+#
 /vendor/bundle/
+/vendor/cache/
+.bundle/
+*.gem
+*.gemfile.lock
 
-# Temporary files created by Metro to check the health of the file watcher
-.metro-health-check*
+# Environment variables
+#
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
 
-# testing
-/coverage
+# Logs
+#
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Editor directories and files
+#
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+#
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+
+# OS generated files
+#
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Patch files (keep patches directory structure but ignore patch contents if needed)
+# Note: patches/ directory should be tracked, but you can add specific patterns here if needed
+
+# Build outputs
+#
+dist/
+lib/
+*.tgz
+*.tar.gz
+
+# Misc
+#
+*.orig
+*.rej
+*.bak
+*.backup
+*.old
